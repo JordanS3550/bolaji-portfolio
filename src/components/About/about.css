@@ -1,0 +1,148 @@
+.section{
+    margin-top: -223px;
+     /* padding-block: 5em; */
+     
+}
+
+.top-header{
+    text-align: center;  
+    font-size: 30px;
+}
+
+.row{
+    display: flex;
+     justify-content: space-between;
+    margin: 20px;
+    /* padding: 0px 90px 90px 90px; */
+}
+.col {
+    
+    width: 60%;
+    /* margin-left: 100px; */
+}
+.about-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 30px 70px;
+    padding-inline: 20px;
+    margin-left: 40px;
+    
+    background: #fff;
+    box-shadow: 1px 8px 10px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    
+}
+.about-info p{
+    font-size: 17px;
+    color: #777;
+    padding: 10px;
+    text-align: center;
+}
+.about-btn a{
+    border: none;
+    padding: 14px 26px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+    font-size: 17px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #6e57e0;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    
+}
+.about-btn a:hover{
+ background: #285bd4;
+}
+.skills-box{
+    text-align: center;
+    margin: 10px;
+    
+}
+.skills-header{
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+.skills-list span{
+     font-size: 25px; 
+      margin: 12px;
+      width: 3%;
+} 
+
+
+ 
+@media only screen and (max-width: 1024px){
+    .row{
+        display: flex;
+        margin: 20px;
+        /* padding: 0px 90px 90px 90px; */
+    }
+    .skills-box{
+        text-align: center;
+        margin-top: 150px;
+        
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    .section{
+        margin-top: -10%;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    img{
+        width: 10%;
+    }
+}
+@media only screen and (max-width: 425px){
+    .section{
+        margin-top: -10%;
+    }
+    .about-info {
+        margin-bottom: 22px;
+        width: 100%;
+        
+        margin-left: 23px;
+    }
+    
+    .skills-box{
+        text-align: center;
+        font-size: 15px;
+        
+    }
+    /* .row{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        
+    } */
+    .skills-list{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .col {
+    
+        width: 80%;
+        margin-left: -30px;
+    }
+    .about-btn a{
+        padding: 10px 14px;
+
+    }
+
+}
